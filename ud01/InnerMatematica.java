@@ -16,6 +16,10 @@ public class InnerMatematica {
        potencia = Math.pow(34, 17);
        System.out.println(potencia);
 
+       num = num + 3; 
+       num = num + 5;
+       num = num + 1;
+
       
     }
 
