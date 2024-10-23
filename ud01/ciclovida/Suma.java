@@ -1,30 +1,35 @@
-
-import java.util.Scanner;
-
 public class Suma {
+    public static void main(String[] argumentos) {
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        //Definición de variables
+        double numero1, numero2, numero3, suma;
 
-        // Solicitar al usuario el primer número
-       
-        double num1 = scanner.nextDouble();
-
-        // Solicitar al usuario el segundo número
+        //Inicialización de variables
+        numero1 = 0;
+        numero2 = 0;
+        numero3 = 0;
+        suma = 0;
         
-        double num2 = scanner.nextDouble();
+        try {
+            // Convertir los argumentos a números
+            numero1 = Double.parseDouble(argumentos[0]);
+            numero2 = Double.parseDouble(argumentos[1]);
 
-        // Calcular la suma
-        double suma = num1 + num2;
+            suma = numero1 + numero2;
 
-        // Imprimir el resultado
-        System.out.println(suma);
+            if(argumentos.length == 3){
+                numero3 = Double.parseDouble(argumentos[2]);
+                suma = suma + numero3;
+            }
 
-        // Cerrar el escáner
-        scanner.close();
+            // Imprimir el resultado
+            System.out.println(suma);
+            
+        } catch (Exception e) {
+            System.out.println("Error");
+        }
     }
 }
     
-
 
 
