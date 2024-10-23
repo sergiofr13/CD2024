@@ -7,7 +7,7 @@ PyCharm es uno de los IDE de Python mas completos y populares que te puedes enco
 
 ## El proceso de instalación
 
-Para instalar PyCharm abrimos nuestro terminal y teniendo snap instalado ejecutamos el siguiente comando:
+Para instalar PyCharm (en este caso Linux) abrimos nuestro terminal y teniendo snap instalado ejecutamos el siguiente comando:
 
 sudo snap install pycharm-community --classic
 
@@ -15,9 +15,10 @@ Con ese comando instalamos la version gratuita, si quisieramos la version de pag
 
 sudo snap install pycharm-professional --classic
 
-
+Ahora ya puedes abrir el IDE de PyCharm
 
 ## La compilación o interpretación de un programita sencillo
 
 Hice un programa sencillo que simplemente multiplica los 2 números que introduzca el usuario.
 
+![Imagen Programa](Imagen_PyCharm.png)
