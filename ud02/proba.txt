@@ -1,0 +1,5 @@
+clonar repositorio
+crear unha rama
+crear arquivo md co noso nome sergioferreiro.md
+escoller 5 ides que se poda instalar de maneira comoda por comando.
+push
