@@ -18,4 +18,8 @@ Si queremos subirlo al repositorio de GitHub
 
 Una vez editamos el fichero de sergio.txt comentando por que se está en este ciclo realizamos otro commit.
 
-    git commit -m ""
+    git commit -m "ejer1_version_1.1"
+
+Y para subirlo al repositorio de github, hacemos:
+
+    git push
