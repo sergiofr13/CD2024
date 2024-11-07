@@ -32,3 +32,29 @@ Pues dentro de la carpeta de ud02/ExerGit creamos dicha carpeta con 2 ficheros.
 
     mkdir carpeta
     touch fichero1 fichero2
+
+
+### Paso 4
+
+Realizar otro commit con las siguientes modificaciones:
+
+-Eliminar del segundo fichero una de tus aficciones.
+
+-Ignora la carpeta con los dos ficheros.
+
+
+### Paso 5
+
+Realiza un checkout para volver a las primeras versiones de los ficheros .txt (el primer commit).
+
+Lo primero que hacemos es un:
+
+    git log
+
+De esta manera vemos el historial de commits hechos.
+
+Luego hacemos un:
+
+    git checkout hash_del_commit
+
+Remplazamos hash_del_commit por el valor del hash encontrado en "git log"
