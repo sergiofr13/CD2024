@@ -62,3 +62,6 @@ Remplazamos hash_del_commit por el valor del hash encontrado en "git log"
 Una vez hecho entraremos en el estado "detached HEAD". Esto significa que no estás en una rama activa, sino que solo has revisado el estado de ese commit. Si solo hiciste un checkout, usa git checkout para volver a tu rama original.
 
     git checkout main
+
+
+#### FIN
